@@ -61,7 +61,12 @@ export default function About() {
           <button>View Collection</button>
         </div>
         <div className={styles.aboutImage}>
-          <Image src={"/Image Block.png"} alt="image" width={312} height={312} />
+          <Image
+            src={"/Image Block.png"}
+            alt="image"
+            width={312}
+            height={312}
+          />
         </div>
       </section>
 
@@ -82,7 +87,7 @@ export default function About() {
           <div className={styles.brandCard}>
             <h4>Unbeatable prices</h4>
             <p>
-              For our materials and quality you won't find better prices
+              For our materials and quality you wont find better prices
               anywhere.
             </p>
           </div>
