@@ -1,0 +1,35 @@
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style: none;
+  }
+  
+  .footer ul li {
+    margin: 5px 0;
+  }
+  
+  .footer input {
+    padding: 10px;
+    margin-right: 5px;
+    border: none;
+  }
+  
+  .footer button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  

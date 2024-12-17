@@ -1,0 +1,166 @@
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #f8f8f8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.header button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Product Details */
+.productDetailsContainer {
+  display: flex;
+  padding: 40px;
+  gap: 50px;
+  align-items: center;
+}
+
+.productImage img {
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.productInfo h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.priceTag {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.addToCartButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Featured Products */
+.featuredSection {
+  padding: 40px 20px;
+  background: #f9f9f9;
+}
+
+.featuredSection h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.featuredGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.featuredCard {
+  text-align: center;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.featuredCard img {
+  width: 100%;
+  height: auto;
+}
+
+.featuredCard h4 {
+  margin: 10px 0;
+}
+
+.viewAll {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+  color: #007bff;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  margin: 5px 0;
+}
+
+.footer input {
+  padding: 10px;
+  border: none;
+  margin-right: 10px;
+}
+
+.footer button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/* Popular Products */
+.popularSection {
+  padding: 40px 20px;
+}
+
+.popularSection h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.popularGrid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.productCard {
+  text-align: left;
+}
+
+.productCard img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.productCard h4 {
+  margin: 10px 0;
+}

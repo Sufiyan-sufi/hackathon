@@ -1,0 +1,28 @@
+/* Popular Products */
+.popularSection {
+    padding: 40px 20px;
+  }
+  
+  .popularSection h3 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .popularGrid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .productCard {
+    text-align: left;
+  }
+  
+  .productCard img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .productCard h4 {
+    margin: 10px 0;
+  }
